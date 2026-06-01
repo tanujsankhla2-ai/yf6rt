@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mumbai Hair Salon | Mumbai's Premier Hair Salon</title>
+    <meta name="description" content="Mumbai Hair Salon is Mumbai's premier luxury hair salon. Expert styling, coloring, bridal packages & beauty treatments — crafted for the modern Mumbai woman.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/chatbot.css">
+</head>
+<body>
+    <!-- Preloader / Loading Screen -->
+    <div id="preloader">
+        <div class="loader-content">
+            <h2 class="loader-brand">Mumbai Hair Salon <span>Salon</span></h2>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#hero" class="logo-brand">
+                <span class="logo-text-top">Mumbai Hair Salon</span>
+                <span class="logo-text-bottom">Salon</span>
+            </a>
+        </div>
+        <div class="menu-icon" id="menu-icon"><i class="fas fa-ellipsis-v"></i></div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="index.html#products">Products</a></li>
+            <li class="mobile-only"><a href="index.html#cta" class="btn btn-primary" style="text-align:center;width:100%;">Book Session</a></li>
+        </ul>
+        <a href="index.html#cta" class="btn btn-outline desktop-btn">Book Session</a>
+    </nav>
+
+
+    <section class="gallery section" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>The <span>Mumbai Hair Salon</span> Look</h2>
+                <p>Explore our visual journal of Mumbai's finest hair artistry and beauty.</p>
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">All Visions</button>
+                    <button class="filter-btn" data-filter="makeup">Cosmetic</button>
+                    <button class="filter-btn" data-filter="skincare">Dermal</button>
+                    <button class="filter-btn" data-filter="hair">Structural</button>
+                </div>
+            </div>
+            <div class="gallery-grid">
+                <!-- Added user images: ran.jpg & 2.jpg -->
+                <div class="gallery-item large" data-category="hair">
+                    <img src="ran.jpg" alt="Mumbai Hair Salon Feature" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="category">Featured</span>
+                        <span class="title">Latest Work</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="hair">
+                    <img src="assets/images/service_royale.png" alt="Mumbai Hair Salon Feature" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="category">Featured</span>
+                        <span class="title">Salon Signature</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item large" data-category="makeup">
+                    <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1200&q=80" alt="High Fashion Makeup" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="category">Makeup</span>
+                        <span class="title">Ethereal Bridal</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="makeup">
+                    <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=600&q=80" alt="Artisan Makeup" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="category">Makeup</span>
+                        <span class="title">Editorial Glow</span>
+                    </div>
+                </div>
+                <!-- Skincare -->
+                <div class="gallery-item tall" data-category="skincare">
+                    <img src="assets/images/service_dermal.png" alt="Skin Therapies" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="category">Skincare</span>
+                        <span class="title">Pure Radiance</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="skincare">
+                    <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=600&q=80" alt="Facial Treatment" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="category">Skincare</span>
+                        <span class="title">Luminous Facial</span>
+                    </div>
+                </div>
+                <!-- Hair -->
+                <div class="gallery-item wide" data-category="hair">
+                    <img src="assets/images/service_hair.png" alt="Hair Styling" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="category">Hair</span>
+                        <span class="title">Master Styling</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="hair">
+                    <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=600&q=80" alt="Precision Cut" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="category">Hair</span>
+                        <span class="title">Precision Cut</span>
+                    </div>
+                </div>
+                <!-- More Items -->
+                <div class="gallery-item" data-category="makeup">
+                    <img src="https://images.unsplash.com/photo-1583241800698-e8ab01830a07?auto=format&fit=crop&w=600&q=80" alt="Aesthetic Makeup" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="category">Makeup</span>
+                        <span class="title">Artisan Finish</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="skincare">
+                    <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=600&q=80" alt="Luxury Spa" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="category">Skincare</span>
+                        <span class="title">Premium Spa</span>
+                    </div>
+                </div>
+                <div class="gallery-item tall" data-category="hair">
+                    <img src="https://images.unsplash.com/photo-1552046122-03184de85e08?auto=format&fit=crop&w=600&q=80" alt="Modern Hair" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="category">Hair</span>
+                        <span class="title">Textured Waves</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="makeup">
+                    <img src="assets/images/collection_lipsticks.png" alt="Makeup Products" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="category">Makeup</span>
+                        <span class="title">Artisan Picks</span>
+                    </div>
+                </div>
+                <div class="gallery-item tall" data-category="skincare">
+                    <img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=600&q=80" alt="Botany Skincare" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="category">Skincare</span>
+                        <span class="title">Botany Essence</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="hair">
+                    <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=600&q=80" alt="Salon Hair" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="category">Hair</span>
+                        <span class="title">Salon Chic</span>
+                    </div>
+                </div>
+                <div class="gallery-item wide" data-category="makeup">
+                    <img src="https://images.unsplash.com/photo-1503236823255-94609f598e71?auto=format&fit=crop&w=1200&q=80" alt="High Fashion Makeup 2" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="category">Makeup</span>
+                        <span class="title">Fashion Runway</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="skincare">
+                    <img src="https://images.unsplash.com/photo-1498843053639-170ff2122f35?auto=format&fit=crop&w=600&q=80" alt="Organic Beauty" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="category">Skincare</span>
+                        <span class="title">Organic Glow</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="hair">
+                    <img src="https://images.unsplash.com/photo-1492158244976-29b84ba93025?auto=format&fit=crop&w=600&q=80" alt="Artisan Hair" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="category">Hair</span>
+                        <span class="title">Artisan Waves</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="makeup">
+                    <img src="assets/images/collection_palette.png" alt="Lipstick Palette 2" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="category">Makeup</span>
+                        <span class="title">Vibrant Hues</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="cta-banner section" id="cta">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Book Your <span>Session</span></h2>
+                <p>Choose your service and let us craft your perfect experience at Mumbai Hair Salon Mumbai.</p>
+            </div>
+
+            <!-- Service Selection — Compact Premium Frames -->
+            <div class="booking-frames-grid reveal">
+                <div class="booking-frame" data-service="structural" data-label="Structural Styling" tabindex="0" role="radio" aria-checked="false">
+                    <div class="frame-photo">
+                        <img src="assets/images/booking_hair.png" alt="Hair Styling Service">
+                        <div class="frame-check"><i class="fas fa-check"></i></div>
+                    </div>
+                    <span class="frame-label">Styling</span>
+                    <span class="frame-price">₹199+</span>
+                </div>
+
+                <div class="booking-frame" data-service="dermal" data-label="Dermal Therapy" tabindex="0" role="radio" aria-checked="false">
+                    <div class="frame-photo">
+                        <img src="assets/images/booking_dermal.png" alt="Dermal Therapy Service">
+                        <div class="frame-check"><i class="fas fa-check"></i></div>
+                    </div>
+                    <span class="frame-label">Dermal</span>
+                    <span class="frame-price">₹199+</span>
+                </div>
+
+                <div class="booking-frame" data-service="artistry" data-label="Luxe Artistry" tabindex="0" role="radio" aria-checked="false">
+                    <div class="frame-photo">
+                        <img src="assets/images/service_makeup.png" alt="Luxe Makeup Artistry">
+                        <div class="frame-check"><i class="fas fa-check"></i></div>
+                    </div>
+                    <span class="frame-label">Makeup</span>
+                    <span class="frame-price">₹249+</span>
+                </div>
+
+                <div class="booking-frame" data-service="nails" data-label="Nail Couture" tabindex="0" role="radio" aria-checked="false">
+                    <div class="frame-photo">
+                        <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=400&q=80" alt="Nail Couture Service">
+                        <div class="frame-check"><i class="fas fa-check"></i></div>
+                    </div>
+                    <span class="frame-label">Nails</span>
+                    <span class="frame-price">₹149+</span>
+                </div>
+
+                <div class="booking-frame" data-service="bridal" data-label="Bridal Royale" tabindex="0" role="radio" aria-checked="false">
+                    <div class="frame-photo">
+                        <img src="https://images.unsplash.com/photo-1519741491971-f2e3e0771f64?auto=format&fit=crop&w=400&q=80" alt="Bridal Royale Package">
+                        <div class="frame-check"><i class="fas fa-check"></i></div>
+                    </div>
+                    <span class="frame-label">Bridal</span>
+                    <span class="frame-price">₹499+</span>
+                </div>
+
+                <div class="booking-frame" data-service="royale" data-label="Royale Immersion" tabindex="0" role="radio" aria-checked="false">
+                    <div class="frame-photo">
+                        <img src="assets/images/service_royale.png" alt="VIP Royale Immersion">
+                        <div class="frame-check"><i class="fas fa-check"></i></div>
+                    </div>
+                    <span class="frame-label">VIP</span>
+                    <span class="frame-price">₹599+</span>
+                </div>
+            </div>
+
+            <!-- Booking Form -->
+            <div class="cta-box glass-card reveal">
+                <div class="selected-service-banner" id="selected-service-banner" style="display:none;">
+                    <i class="fas fa-spa"></i>
+                    <span id="selected-service-label">No service selected</span>
+                    <button type="button" id="change-service-btn">Change <i class="fas fa-pen"></i></button>
+                </div>
+                <form class="booking-form" id="booking-form">
+                    <input type="text" id="booking-name" placeholder="Full Name" required>
+                    <input type="tel" id="booking-phone" placeholder="Phone Number" required>
+                    <select id="booking-service" required class="service-select">
+                        <option value="" disabled selected>Select a Session</option>
+                        <option value="structural">Structural Styling</option>
+                        <option value="dermal">Dermal Therapy</option>
+                        <option value="artistry">Luxe Artistry</option>
+                        <option value="nails">Nail Couture</option>
+                        <option value="bridal">Bridal Royale</option>
+                        <option value="royale">Royale Immersion</option>
+                    </select>
+                    <input type="date" id="booking-date" required>
+                    <input type="time" id="booking-time" required>
+                    <button type="submit" class="btn btn-primary btn-submit">Confirm on WhatsApp <i class="fab fa-whatsapp"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="logo-brand">
+                    <span class="logo-text-top">salon muah</span>
+                    <span class="logo-text-bottom">Salon</span>
+                </div>
+                <p>Mumbai's Premier Hair Salon.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 salon muah Hair Salon, Mumbai. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Sticky Call Button -->
+    <a href="tel:+918949853554" class="sticky-call-btn" title="Call salon muah Hair Salon">
+        <i class="fas fa-phone-alt"></i>
+    </a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <script src="js/main.js"></script>
+    <script src="js/chatbot.js"></script>
+</body>
+</html>
